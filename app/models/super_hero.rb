@@ -1,1 +1,10 @@
-class Super_Hero
+class SuperHero
+  
+  def initialize(args)
+    
+    
+  
+  
+  
+  
+end 
