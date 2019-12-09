@@ -16,6 +16,11 @@
 
 <h1>Heroes</h1>
 
+  <% @heroes.each do |ship| %>
+    <h3>Name: <%= ship.name %></h3>
+      <h3>Type: <%= ship.type %></h3>
+      <h3>Booty: <%= ship.booty %></h3><br>
+    <% end %>
 
 
  
