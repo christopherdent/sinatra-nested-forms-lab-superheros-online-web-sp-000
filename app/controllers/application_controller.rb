@@ -11,7 +11,7 @@ class App < Sinatra::Base
     
     post '/teams' do
       
-      @team = Team.new
+      @team = Team.new(params[:team])
       
       binding.pry 
       erb :team 
@@ -20,5 +20,4 @@ class App < Sinatra::Base
 
 end
 
-
-@pirate = Pirate.new(params[:pirate])
+ 
